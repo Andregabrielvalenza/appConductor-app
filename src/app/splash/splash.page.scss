@@ -1,0 +1,30 @@
+@font-face{
+    font-family: AvenirBlack;
+    src : url('/assets/font/Avenir-Black.otf')
+  }
+ion-content
+{
+    --background: #DEDEDE;
+    height: 100vh;
+    position: relative;
+    h1
+    {
+        font-family: AvenirBlack;
+        color: #014A74;
+        position: absolute;
+        bottom: 50px;
+        width: 100%;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+}
+@media (min-width: 768px)
+{
+    ion-content
+    {
+        h1
+        {
+            font-size: 4.0625rem; 
+        }
+    }
+}

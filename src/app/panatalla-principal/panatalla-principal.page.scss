@@ -1,0 +1,27 @@
+@font-face{
+    font-family: AvenirMedium;
+    src : url('/assets/font/AvenirLTStd-Medium.otf')
+}
+@font-face{
+    font-family: AvenirLight;
+    src : url('/assets/font/Avenir-Light.ttf')
+}
+ion-tabs
+{
+    ion-tab-bar
+    {
+        background-color: #014A74;
+        ion-tab-button
+        {
+            height: 40px;
+            color: #fff;
+            font-family: AvenirMedium; 
+            font-size: 16px;
+            background-color: transparent !important;
+        }
+        .btn_tabs
+        {
+            border-right: 1px solid #fff;
+        }
+    }
+}
